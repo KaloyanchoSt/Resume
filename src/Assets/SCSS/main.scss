@@ -1,0 +1,44 @@
+$font-weight: bold;
+$primary-text-size: 16px;
+$seconadary-text-size: 12px;
+$a-color: black;
+$primary-and-secondary-text-color: #1867c0;
+
+li {
+    list-style-type: none;
+}
+a:visited {
+    color: $a-color;
+}
+a:link {
+    color: $a-color;
+    background-color: transparent;
+    text-decoration: none;
+}
+.primary {
+    font-weight: bold;
+}
+.primary-bold-name {
+    @extend .primary;
+    font-size: 30px;
+}
+.primary-bold {
+    @extend .primary;
+    font-size: $primary-text-size;
+}
+.primary-bold-color {
+    @extend .primary-bold;
+    color: $primary-and-secondary-text-color;
+}
+
+.secondary {
+    font-size: $seconadary-text-size;
+}
+.secondary-bold {
+    @extend .secondary;
+    font-weight: bold;
+}
+.secondary-bold-color {
+    @extend .secondary-bold;
+    color: $primary-and-secondary-text-color;
+}

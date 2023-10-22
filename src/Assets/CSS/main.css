@@ -1,0 +1,45 @@
+:root {
+    --text-color: #1867c0;
+    --a-color: black;
+    --primary-text-size: 16px;
+    --seconadary-text-size: 12px;
+}
+li {
+    list-style-type: none;
+}
+a:link {
+    color: var(--a-color);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: var(--a-color);
+}
+.primary-bold-name {
+    font-weight: bold;
+    font-size: 30px;
+}
+.primary {
+    font-size: var(--primary-text-size);
+}
+.primary-bold {
+    font-weight: bold;
+    font-size: var(--primary-text-size);
+}
+.primary-bold-color {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: var(--primary-text-size);
+}
+.secondary {
+    font-size: var(--seconadary-text-size);
+}
+.secondary-bold {
+    font-weight: bold;
+    font-size: var(--seconadary-text-size);
+}
+.secondary-bold-color {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: var(--seconadary-text-size);
+}
